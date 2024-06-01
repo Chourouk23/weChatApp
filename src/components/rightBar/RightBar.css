@@ -1,0 +1,94 @@
+.rightBar {
+    flex: 3;
+    background-color: rgba(247, 245, 245, 0.884);
+    padding: 0 10px;
+    position: sticky;
+    top: 64px;
+    height: calc(100vh - 64px);
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+      
+}
+
+.item{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    margin: 13px 0;
+    background-color: white;
+}
+.invit-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 33px;
+}
+.invit-row div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.follow-btn {
+    background-color: #25a18e;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dismiss-btn {
+    background-color: #89ffbe;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.notif-row{
+    display: flex;
+    align-items: center;
+    height: 31px;
+    gap: 10px;
+    font-size: 12px;
+    justify-content: space-between;
+    
+}
+.notif-row div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.notif-row span{
+    color: gray;
+}
+.notif-row .time{
+    color: gray;
+}
+.third-item div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+.friends-row{
+    height: 33px;
+    position: relative;  
+}
+.online-sign {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(18, 148, 18);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 18px;
+}
+.user-img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+}

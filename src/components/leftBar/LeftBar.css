@@ -1,0 +1,35 @@
+.leftBar-container {
+    padding:10px 0px;
+    flex: 2;
+    position: sticky;
+    top: 64px;
+    height: calc(100vh - 64px);
+    overflow: scroll;
+    &::-webkit-scrollbar {
+  display: none;
+}
+}
+.user-img{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        border: 1px solid black;
+        border-radius: 20px;
+}
+.separation-border{
+    padding-bottom:10px ;
+    border-bottom:1px solid lightgray ;
+}
+.leftBar-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.leftBar-row img {
+    width: 19px;
+    height: 19px;
+}
