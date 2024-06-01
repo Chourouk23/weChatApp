@@ -37,6 +37,12 @@
       background-color: #222;
       color: white;
     }
+    .profile-page .profile-settings {
+      background-color: #222;
+      .profile-header{
+        color: #89ffbe;
+      }
+    }
   }
 }
 .theme-light {
